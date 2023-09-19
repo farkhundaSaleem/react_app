@@ -6,7 +6,7 @@ import './Expenses.css'
 export default function Expenses() {
     return (
         <>
-            <h1>Expense Tracker App</h1>
+            <h1 className='heading'>Expense Tracker App</h1>
             <div className="expenses">
                 <Card>
                     <ExpenseItem title="Books" amount="300" />
